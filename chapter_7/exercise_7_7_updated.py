@@ -1,0 +1,1 @@
+comprehension_list = [n * n for n in range(10)]
