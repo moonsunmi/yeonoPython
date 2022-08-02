@@ -1,0 +1,1 @@
+print([e ** 3 for e in range(10)])
