@@ -1,5 +1,4 @@
 import pygame
-import time
 
 SCREEN_WIDTH = 400
 SCREEN_HEIGHT = 400
@@ -26,21 +25,7 @@ def draw_block(screen, color, position):
 
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-"""
-draw_background(screen)
 
-
-draw_block(screen, RED, (1, 1))
-draw_block(screen, RED, (3, 1))
-draw_block(screen, RED, (5, 1))
-draw_block(screen, RED, (7, 1))
-draw_block(screen, GREEN, (12, 10))
-draw_block(screen, GREEN, (12, 11))
-draw_block(screen, GREEN, (12, 12))
-draw_block(screen, GREEN, (12, 13))
-
-pygame.display.update()
-"""
 block_position = [0, 0]
 
 while True:
